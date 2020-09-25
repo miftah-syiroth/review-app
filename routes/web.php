@@ -41,6 +41,3 @@ Route::view('/contact', 'contact');
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
-
-// cuma buat uji route:list
-Route::resource('Uji', 'UjiController');
